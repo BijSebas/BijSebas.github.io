@@ -4,7 +4,7 @@ const car_class_l = ["M","E","C","I","S","F","L","P","X"];
 const car_class_w = ["Mini","Economy","Compact","Intermediate","Standard","Fullsize","Luxury","Premium","Special"];
 
 const car_door_l = ["B","C","D","W","F","M","V","K","G","T","P","Q"];
-const car_door_w = ["2 Door","2/4 Door","5 Door","Wagon / Estate","SUV","Mono Space","Passenger Van","Commercial Van","Cross Over","Convertible","Pickup Regular Cab","Pickup Extended Cab"];
+const car_door_w = ["2 Door","2/4 Door","5 Door","Wagon / Estate","SUV","Monospace","Passenger Van","Commercial Van / Truck","Crossover","Convertible","Pickup Regular Cab","Pickup Extended Cab"];
 
 const car_trans_l = ["M","A"];
 const car_trans_w = ["Manual drive","Auto drive"];
