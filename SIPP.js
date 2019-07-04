@@ -10,7 +10,7 @@ const car_trans_l = ["M","A"];
 const car_trans_w = ["Manual drive","Auto drive"];
 
 const car_fuel_l = ["R","D","V","N","H","E","M"];
-const car_fuel_w = ["Unspecified fuel, A/C ","Diesel, A/C","Petrol, A/C","Unspecified fuel, no A/C","Hybrid, A/C","Electric, A/C","Multi fuel, A/C"];
+const car_fuel_w = ["Unspecified fuel, A/C","Diesel, A/C","Petrol, A/C","Unspecified fuel, no A/C","Hybrid, A/C","Electric, A/C","Multi fuel, A/C"];
 
 let answer = "";
 
