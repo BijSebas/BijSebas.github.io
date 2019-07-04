@@ -54,10 +54,12 @@ button.addEventListener("click", function sippCodeCreator() {
 	let sippCode = carClassLetter + carDoorLetter + carTransLetter + carFuelLetter;
 	answer = "This is a " + carClassWord + " car of the " + carDoorWord + " type with " + carTransWord + " and " + carFuelWord + ".";
 
-	console.log(sippCode);
 	sipp.innerHTML = sippCode;
 
-	console.log(answer)
+	CC.value = null;
+	CD.value = null;
+	CT.value = null;
+	CF.value = null;
 });
 
 check.addEventListener("click", function answerChecker() {
