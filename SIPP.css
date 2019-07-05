@@ -39,6 +39,7 @@ h1 {
 	border-style: solid;
 	padding: 20px;
 	border-width: 1px;
+	border-radius: 25px;
 	font-family: quicksand_semibold,Helvetica,Arial,sans-serif;
 	color: #21456d;
 	border-color: #bcd13c;
