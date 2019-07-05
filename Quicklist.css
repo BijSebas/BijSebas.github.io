@@ -1,0 +1,13 @@
+.GroceryList {
+	border-style: solid;
+	border-width: 1px;
+	width: 300px;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding-left: 5px;
+}
