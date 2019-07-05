@@ -45,8 +45,8 @@ h1 {
 }
 
 .logo {
-	height: 10%;
-	width: 10%;
+	height: 50%;
+	width: 50%;
 	margin: 10px;
 	position: flex;
 }
