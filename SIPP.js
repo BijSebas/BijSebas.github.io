@@ -79,7 +79,7 @@ button.addEventListener("click", function sippCodeCreator() {
 		let userAnswer = "This is a " + answerClass + " car of the " + answerDoor + " type with " + answerTrans + " and " + answerFuel + ".";
 
 		if (userAnswer === answer) {
-			answerCheck.innerHTML = "You are correct!";
+			answerCheck.innerHTML = "Well done!";
 			correctAnswer.innerHTML = answer;
 
 			CA = CA+1;
