@@ -173,6 +173,12 @@ const pastaRedPesto = [
 		unit: "Gr"
 	},
 	{
+		type: "Vegetables",
+		name: "Pine nuts",
+		quantity: 200,
+		unit: "Gr"
+	},
+	{
 		type: "Dairy",
 		name: "Yoghurt",
 		quantity: 300,
