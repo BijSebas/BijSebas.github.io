@@ -85,6 +85,8 @@ ul {
 	grid-column-end: 3;
 	font-family: 'Philosopher', sans-serif;
 	margin-left: 10px;
+	height: max-content;
+	max-height: 505px;
 }
 
 #dishlist ul{
