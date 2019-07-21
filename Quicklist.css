@@ -301,6 +301,7 @@ h3 {
   overflow: hidden;
   border: none;
   width: 900px;
+  animation: fadeInEffect 0.5s;
 }
 
 #menutab {
