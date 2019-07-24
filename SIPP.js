@@ -7,7 +7,7 @@ const car_door_l = ["B","C","D","W","F","M","V","K","G","T","P","Q"];
 const car_door_w = ["2 door","2/4 door","5 door","wagon / estate","suv","monospace","passenger van","commercial van / truck","crossover","convertible","pickup regular cab","pickup extended cab"];
 
 const car_trans_l = ["M","A"];
-const car_trans_w = ["manual drive","auto drive"];
+const car_trans_w = ["manual","automatic"];
 
 const car_fuel_l = ["R","D","V","N","H","E","M"];
 const car_fuel_w = ["unspecified fuel, a/c","diesel, a/c","petrol, a/c","unspecified fuel, no a/c","hybrid, a/c","electric, a/c","multi fuel, a/c"];
