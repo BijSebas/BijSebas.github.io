@@ -117,6 +117,7 @@ h1:hover {
 	border-top-left-radius:3%;
 	border-bottom-right-radius:3%;
 	overflow-y:scroll;
+	height:80vh;
 }
 
 #midinfo:hover {
