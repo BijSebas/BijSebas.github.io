@@ -239,7 +239,7 @@ ul {
 
 #dishcontent {
 	padding:0px;
-	width: 99.6vw;
+	width: 100vw;
 	height:90vh;
 	border: none;
 	background-image:url("dishlistbg.jpg");
@@ -295,7 +295,7 @@ h1 {
 /*CSS for shoppinglist*/
 #grocerycontent {
 	padding: 0px;
-	width: 99.6vw;
+	width: 100vw;
 	height: 90vh;
 	border: none;
 	background-image:url("dishlistbg.jpg");
