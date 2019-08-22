@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIPP code trainer</title>
+	<link rel="stylesheet" type="text/css" href="SIPP.css">
+	<meta name="viewport" content="width=device-widht, initial-scale=1.0">
+</head>
+<body>
+	<h1>Welcome to the Cartrawler SIPP code trainer</h1>
+
+	<div class = "IC">
+		<div class = "intro">
+			<p>Hi Guys,</p>
+			<p>Welcome to Cartrawler. I made this trainer to make studying the SIPP codes a bit less tedious. I hope it helps.</p>
+			<p>The program works really simple. First click on 'Start practicing'. Then fill out the text fields accordingly. After you are you filled out the fields, click on 'Check answer and continue'. You will either receive a compliment or encouragement, the correct answer and a new SIPP code. Please be careful, the system is sensitive to spaces between words and signs. Please check the SIPP code sheet you got from Emma and Cian. Good luck.</p>
+			<p>I am looking forward to seeing you on the floor soon!</p>
+			<p>Kind regards,</p>
+			<p>Sebastiaan</p>
+		</div>
+	</div>
+
+	<div class = "TC">
+		<div class = "trainer">
+			<button id="new">Start Practicing</button>
+
+			<p>What does this SIPP code stand for:</p>
+			<h2 id = sippcode>EDMR</h2>
+			<p></p>
+			<input type="text" name="Car Class" id="CC" placeholder="Car Class">
+			<input type="text" name="Amount of doors" id="CD" placeholder="Car Type">
+			<input type="text" name="Transmission Type" id="CT" placeholder="Transmission">
+			<input type="text" name="Fuel and A/C" id="CF" placeholder="Fuel Type, (no) A/C">
+
+			<p></p>
+			
+			<p id = answercheck>Well done!</p>
+			<p id = correctanswer>The <strong>EDMR</strong> is an <strong>Economy</strong> car of the <strong>5 Door</strong> type with <strong>Manual drive</strong> and <strong>Unspecified fuel, A/C</strong>.</p>
+
+			<p id = "score">Based on 0 attempts, your score is: 0%</p>
+
+			<img class = "logo" src = "CTlogo.png">
+		</div>
+	</div>
+
+	<script type = "text/javascript" src="SIPP.js"></script>
+</body>
+</html>
