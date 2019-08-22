@@ -1,0 +1,73 @@
+body {
+	margin: 0px;
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: quicksand_semibold,Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 3vw;
+	background-color: #21456d;
+	color: #bcd13c;
+	height: 8vh;
+	margin: 0px;
+	border-top: 0.5vh solid;
+	border-color: #bcd13c;
+	text-decoration: line-through #21456d;
+}
+
+.IC {
+	display: flex;
+	justify-content: center;
+}
+
+.intro {
+	width: 100vw;
+	max-width: 650px;
+	text-align: left;
+	font-family: quicksand,Helvetica,Arial,sans-serif;
+	color: #21456d;
+}
+
+.TC {
+	display: flex;
+	justify-content: center;
+}
+
+.trainer {
+	text-align: center;
+	border-style: solid;
+	padding: 20px;
+	padding-bottom: 0px;
+	border-width: 1px;
+	border-radius: 25px;
+	font-family: quicksand_semibold,Helvetica,Arial,sans-serif;
+	color: #21456d;
+	border-color: #bcd13c;
+	width:100vw;
+	max-width:max-content;
+	height:100vh;
+	max-height: max-content;
+}
+
+.logo {
+	height: 149px;
+	width: 339px;
+	margin: 10px;
+	position: flex;
+}
+
+#new {
+	background-color: #21456d;
+	border-color: #bcd13c;
+	border-radius: 5%;
+	font-family: quicksand_semibold,Helvetica,Arial,sans-serif;
+	color: #ffffff;
+	margin: 0px;
+}
+
+button:focus, input:focus{
+    outline: none;
+}
