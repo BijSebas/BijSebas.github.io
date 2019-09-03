@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resolution Support Contacts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="PostEmail.css">
+</head>
+<body>
+
+	<div id="layout">
+		<div id="count">
+			<input type="text" list="countries" id="country" placeholder="Country (e.g. ES)">
+			<datalist id="countries">
+				<option value="Cyprus (CY)">
+				<option value="France (FR)">
+				<option value="Germany (DE)">
+				<option value="Greece (GR)">
+				<option value="Ireland (IE)">
+				<option value="Italy (IT)">
+				<option value="Spain (ES)">
+			</datalist>
+			<p id="button">Get Details</p>
+		</div>
+
+		<div id="Supplier">
+			<input type="text" list="suppliers" id="supplier" placeholder="Supplier (e.g. Hertz)">
+			<datalist id="suppliers">
+				<option value="Avis">
+				<option value="Budget">
+				<option value="Dollar">
+				<option value="Easirent">
+				<option value="Goldcar">
+				<option value="SIXT">
+				<option value="Thrifty">
+			</datalist>
+		</div>
+
+		<div id="info">
+			
+			<div id="supplierInCountry">
+				<h3 id="supincou">Supplier in Country</h3>
+			</div>
+			
+			<div id="descriptors">
+				<p>Portal:</p>
+				<p>1st contact:</p>
+				<p>2nd contact:</p>
+				<p>3rd contact:</p>
+			</div>
+
+			<div id="supplierInfo">
+				<p id="portal"></p>
+				<p id="1st"></p>
+				<p id="2nd"></p>
+				<p id="3rd"></p>
+			</div>
+		</div>
+	</div>
+
+	<script type = "text/javascript" src="PostEmail.js"></script>
+</body>
+</html>
